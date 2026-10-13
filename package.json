@@ -1,0 +1,16 @@
+{
+  "name": "task-manager-server",
+  "version": "3.14.0",
+  "private": true,
+  "description": "Task Manager (Checklist / Delegation / Help Ticket / MIS / FMS) — Node server with Google Sheets as the database",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js",
+    "port": "node tools/port.js"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.15.0"
+  }
+}
